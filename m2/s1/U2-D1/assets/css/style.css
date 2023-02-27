@@ -178,4 +178,60 @@ footer {
 footer a {
     color: fuchsia;
 }
-
+@media screen and (max-width: 576px){
+    header{
+        display: inline-block;
+    }
+    main{
+        font-size: 9px;
+        letter-spacing: 0.3px;
+    }
+    table{
+        margin-right: 50px;
+    }
+    section h2{
+        background-color: grey;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 768px){
+    header{
+        display: inline-block;
+    }
+    main h1{
+        font-size: 40px;
+        letter-spacing: 0.3px;
+    }
+    main h2{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    table{
+        margin-left: 95px;
+    }
+    section h2{
+        background-color: grey;
+    }
+    footer{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 769px){
+    header{
+        display: block;
+        text-align: center;
+    }
+    main h2{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    table{
+        margin-inline-start: 155px;
+        text-align: center;
+    }
+    iframe{
+        display: inline-block;
+    }
+    aside{
+        display: block;
+    }
+}
