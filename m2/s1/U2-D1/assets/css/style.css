@@ -193,7 +193,7 @@ footer a {
         background-color: grey;
     }
 }
-@media screen and (min-width: 577px) and (max-width: 768px){
+@media screen and (min-width: 768px){
     header{
         display: inline-block;
     }
@@ -215,10 +215,10 @@ footer a {
         font-size: 14px;
     }
 }
-@media screen and (min-width: 769px){
-    header{
+@media screen and (min-width: 1200px){
+    header div img{
         display: block;
-        text-align: center;
+        vertical-align: middle;
     }
     main h2{
         font-weight: bold;
@@ -232,6 +232,7 @@ footer a {
         display: inline-block;
     }
     aside{
-        display: block;
+        display: inline-block;
+        vertical-align: middle;
     }
 }
